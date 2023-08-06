@@ -1,0 +1,21 @@
+@import url(style.css);
+
+main {
+  text-align: center;
+}
+.selected {
+  background-color: hsl(216deg 24.06% 21.7%);
+  color: var(--primar);
+  padding: 10px 20px;
+  margin: 30px auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  width: fit-content;
+}
+
+p {
+  margin: 0;
+}

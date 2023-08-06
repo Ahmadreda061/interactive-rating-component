@@ -1,0 +1,65 @@
+@import url("style.css");
+
+.star,
+li {
+  background-color: hsl(216deg 24.06% 21.7%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.star {
+  margin-bottom: 20px;
+}
+
+.star::before {
+  content: url(../images/icon-star.svg);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-gray);
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  background-color: var(--primar);
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--primar);
+}
+
+li:hover {
+  background-color: var(--primar);
+  color: white;
+}
